@@ -8,7 +8,7 @@ import { TSystemMessageWithHTMLAttrs } from '@/components/atoms/SystemMessage/TS
 // --------------------------------------------------------------------------- //
 // ------- Only a SystemMessage(Text) that renders in different colors ------- //
 // --------------------------------------------------------------------------- //
-export default function SystemMessage(props: TSystemMessageWithHTMLAttrs & { textSettings?: TTypography }) {
+export default function SystemMessage(props: TSystemMessageWithHTMLAttrs & { textSettings?: Partial<TTypography> }) {
   const {
     themeType = 'error',
     layer,
