@@ -15,10 +15,10 @@ export default function FancyChip(props: TFancyChipWithFancyPillAttrs) {
     label,
     icon,
     image,
-    onDelete,
     layer = 2,
     themeType,
     sizeC = 'sm',
+    onDelete,
     externalStyle,
     textColor,
     ...htmlProps
@@ -36,6 +36,8 @@ export default function FancyChip(props: TFancyChipWithFancyPillAttrs) {
 
   // Calculate the spacing position for the chip
   const getCalcPosition = clacPosition();
+
+  console.log(onDelete);
 
   return (
     <Chip
