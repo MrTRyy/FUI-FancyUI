@@ -80,14 +80,14 @@ export default function FancyChipList(props: TFancyChipList) {
               isActive={focusedChip === chip.id}
               role="textbox"
               label={chip.label}
-              aria-readonly={!editable}
+              aria-readonly={disabled || !editable}
               contentEditable={editabledChip === chip.id}
               layer={clampLayer((layer ?? 1) + 1)}
               outlined={outlined}
               onBlur={() => handleChipFocus(chip.id)}
               onFocus={() => handleChipFocus(chip.id)}
-              onClick={(e) => handleClick(e, chip.id)}
-              onKeyDown={(e) => handleChipEdit(chip.id, e)}
+              onClick={(e) => !disabled && handleClick(e, chip.id)}
+              onKeyDown={(e) => !disabled && handleChipEdit(chip.id, e)}
               onDelete={disabled ? undefined : () => deleteChip(chip.id)}
             />
           </li>
