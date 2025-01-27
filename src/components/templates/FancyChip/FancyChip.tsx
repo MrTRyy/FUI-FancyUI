@@ -37,8 +37,6 @@ export default function FancyChip(props: TFancyChipWithFancyPillAttrs) {
   // Calculate the spacing position for the chip
   const getCalcPosition = clacPosition();
 
-  console.log(onDelete);
-
   return (
     <Chip
       sizeC={sizeC}
