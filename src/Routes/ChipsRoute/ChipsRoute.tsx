@@ -38,7 +38,7 @@ export default function ChipsRoute() {
             <FancyChip label="Heyyjoo" onClick={() => clickHandler('hi')} />
             <FancyChip label="Heyyjoo" onClick={() => clickHandler('hi')} />
           </ChipList>
-          <FancyChipList disabled sizeC="sm" layer={2} chips={chipList} onChange={handleChipChange} />
+          <FancyChipList sizeC="sm" layer={2} chips={chipList} onChange={handleChipChange} />
         </DesignArea>
         <DesignArea title="FancyChip">
           <FancyChip

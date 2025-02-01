@@ -88,7 +88,7 @@ export default function FancyChipList(props: TFancyChipList) {
               onFocus={() => handleChipFocus(chip.id)}
               onClick={(e) => !disabled && handleClick(e, chip.id)}
               onKeyDown={(e) => !disabled && handleChipEdit(chip.id, e)}
-              onDelete={disabled ? undefined : () => deleteChip(chip.id)}
+              onDelete={disabled ? undefined : deleteChip(chip.id)}
             />
           </li>
         ))}
