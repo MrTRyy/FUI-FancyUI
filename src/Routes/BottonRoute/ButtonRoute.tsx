@@ -26,15 +26,17 @@ export default function ButtonRoute() {
   return (
     <DesignWrapper>
       <DesignArea title="Buttons sizes" style={backgroundColor}>
+        <FancyButton themeType="primary" icon={<SVGChevronLeft />} label="Hhdsds" sizeC="lg" layer={2} />
         <FancyButton
           label="Button"
           themeType="primary"
           sizeC="sm"
+          icon={<SVGChevronLeft />}
           disabled
           onClick={() => console.log('Trigger me Dadddy')}
         />
-        <FancyButton label="Button" themeType="primary" sizeC="md" />
-        <FancyButton label="Button" themeType="primary" sizeC="lg" />
+        <FancyButton label="Button" icon={<SVGChevronLeft />} themeType="primary" sizeC="md" />
+        <FancyButton label="ButtonLG" icon={<SVGChevronLeft />} themeType="primary" sizeC="lg" />
 
         <FancyButton
           label="Button"
