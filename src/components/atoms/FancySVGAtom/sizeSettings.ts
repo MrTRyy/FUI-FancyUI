@@ -5,3 +5,5 @@ export const sizes = {
   ...globalElementSizes,
   full: '100%',
 };
+
+export type TFancySVGAtomSizes = typeof sizes;

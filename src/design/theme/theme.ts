@@ -96,6 +96,7 @@ export const theme = {
     complete: '200px',
   },
   spacing: {
+    xxxa: '2px',
     xxs: '4px',
     xs: '8px',
     sm: '12px',
