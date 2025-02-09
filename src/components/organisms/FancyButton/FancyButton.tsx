@@ -62,8 +62,8 @@ export default function FancyButton(props: TFancyButtonWithHTMLAttrs) {
           </FancyContent.Title>
         )}
         {(isLoading || icon) && (
-          <FancyContent.Icon>
-            {isLoading ? <LoadingSVGArrows isLoading={isLoading} sizeC={sizeC} /> : icon}
+          <FancyContent.Icon sizeC={sizeC}>
+            {isLoading ? <LoadingSVGArrows isLoading={isLoading} /> : icon}
           </FancyContent.Icon>
         )}
       </FancyContent>

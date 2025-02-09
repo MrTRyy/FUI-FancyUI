@@ -1,11 +1,9 @@
 import { CSSProp } from 'styled-components';
 
-import { sizes } from '@/components/atoms/FancySVGAtom/sizeSettings';
 import { TLayer } from '@/types/TLayer';
 import { TUiColorsNotTransparent } from '@/types/TUiColorsNotTransparent';
 import { TUiColorsSystemMessage } from '@/types/TUiColorsSystemMessage';
-
-export type TFancySVGAtomSizes = keyof typeof sizes;
+import { TFancySVGAtomSizes } from '@/components/atoms/FancySVGAtom/sizeSettings';
 
 export type TFancySVGAtom = {
   children?: React.ReactNode;
