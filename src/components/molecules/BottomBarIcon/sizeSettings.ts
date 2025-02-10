@@ -1,13 +1,13 @@
+import { TComponentSizes } from '@/types';
 import { TSizeSettings } from '@/types/TSizeSettings';
-import { TglobalElementSizes } from '@/types/TGlobalElementSizes';
 
 type TSizeObj = {
-  sizeIcon: TglobalElementSizes;
+  sizeIcon: TComponentSizes;
 };
 
 export const sizeSettings: TSizeSettings<TSizeObj> = {
   sm: {
-    sizeIcon: 'xs',
+    sizeIcon: 'sm',
   },
   md: {
     sizeIcon: 'sm',

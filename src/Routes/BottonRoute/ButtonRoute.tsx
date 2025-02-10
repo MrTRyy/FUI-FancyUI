@@ -37,8 +37,8 @@ export default function ButtonRoute() {
         />
         <FancyButton label="Button" icon={<SVGChevronLeft />} themeType="primary" sizeC="md" />
         <FancyButton label="ButtonLG" icon={<SVGChevronLeft />} themeType="primary" sizeC="lg" />
-
-        <FancyButton
+      </DesignArea>
+      {/* <FancyButton
           label="Button"
           themeType="primary"
           sizeC="sm"
@@ -140,7 +140,7 @@ export default function ButtonRoute() {
       </DesignArea>
       <DesignArea title="Buttons" style={backgroundColor}>
         <FancyButton className={style.test} appendClassNameOnStyle={true} noSize label="Test" themeType="primary" />
-      </DesignArea>
+      </DesignArea> */}
     </DesignWrapper>
   );
 }

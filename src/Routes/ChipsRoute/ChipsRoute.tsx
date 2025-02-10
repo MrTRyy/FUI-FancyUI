@@ -34,9 +34,32 @@ export default function ChipsRoute() {
       <DesignWrapper>
         <DesignArea title="ChipList">
           <ChipList disabled>
-            <FancyChip label="Heyyjoo" onClick={() => clickHandler('hi')} />
-            <FancyChip label="Heyyjoo" onClick={() => clickHandler('hi')} />
-            <FancyChip label="Heyyjoo" onClick={() => clickHandler('hi')} />
+            <FancyChip label="Heyyjoo" icon={<ClipBoardIconCheck />} onClick={() => clickHandler('hi')} />
+            <FancyChip label="Heyyjoo" icon={<ClipBoardIconCheck />} onClick={() => clickHandler('hi')} />
+            <FancyChip label="Heyyjoo" icon={<ClipBoardIconCheck />} onClick={() => clickHandler('hi')} />
+          </ChipList>
+          <ChipList>
+            <FancyChip
+              layer={3}
+              icon={<ClipBoardIconCheck />}
+              sizeC="sm"
+              label="Heyyjoo"
+              onClick={() => clickHandler('hi')}
+            />
+            <FancyChip
+              layer={3}
+              icon={<ClipBoardIconCheck />}
+              sizeC="md"
+              label="Heyyjoo"
+              onClick={() => clickHandler('hi')}
+            />
+            <FancyChip
+              layer={3}
+              icon={<ClipBoardIconCheck />}
+              sizeC="lg"
+              label="Heyyjoo"
+              onClick={() => clickHandler('hi')}
+            />
           </ChipList>
           <FancyChipList sizeC="sm" layer={2} chips={chipList} onChange={handleChipChange} />
         </DesignArea>

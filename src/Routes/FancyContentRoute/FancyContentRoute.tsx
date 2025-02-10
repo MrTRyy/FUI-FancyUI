@@ -11,7 +11,7 @@ export default function FancyContentRoute() {
     <DesignWrapper>
       <DesignArea title="FancyContent">
         <FancyContent align="flex-start" justify="center" externalStyle={disabledStyle}>
-          <FancyContent.Icon sizeC="sm" themeType="primary">
+          <FancyContent.Icon sizeC="lg" themeType="primary">
             <SVGCheckMark />
           </FancyContent.Icon>
           <FancyContent.Title>Hiii</FancyContent.Title>
@@ -19,6 +19,9 @@ export default function FancyContentRoute() {
         </FancyContent>
 
         <FancyContent align="flex-start" justify="center" gapBetweenIcon="12px">
+          <FancyContent.Icon sizeC="lg" themeType="primary">
+            <SVGCheckMark />
+          </FancyContent.Icon>
           <FancyContent.Description>Hiii</FancyContent.Description>
           <FancyContent.Title>Hiii</FancyContent.Title>
         </FancyContent>
