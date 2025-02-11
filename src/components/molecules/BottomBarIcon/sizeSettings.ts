@@ -10,9 +10,9 @@ export const sizeSettings: TSizeSettings<TSizeObj> = {
     sizeIcon: 'sm',
   },
   md: {
-    sizeIcon: 'sm',
+    sizeIcon: 'md',
   },
   lg: {
-    sizeIcon: 'md',
+    sizeIcon: 'lg',
   },
 };
