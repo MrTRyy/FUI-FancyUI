@@ -14,24 +14,24 @@ type TSizeObj = {
 // Define the sizes for the FancyContent component
 export const sizes: TSizeSettings<TSizeObj> = {
   sm: {
-    fontSizeDescription: 'subTextFootnote',
     fontSizeTitle: 'bodytextSm',
+    fontSizeDescription: 'interactiveSm',
     padding: 'xs',
     iconPadding: 'xxxs',
     iconSize: 'xxxs',
   },
   md: {
-    fontSizeDescription: 'bodytextSm',
     fontSizeTitle: 'bodytextMd',
+    fontSizeDescription: 'interactiveMd',
     padding: 'sm',
     iconPadding: 'xxs',
     iconSize: 'xxs',
   },
   lg: {
-    fontSizeDescription: 'bodytextLg',
-    fontSizeTitle: 'bodytextMd',
+    fontSizeTitle: 'bodytextLg',
+    fontSizeDescription: 'interactiveLg',
     padding: 'md',
     iconPadding: 'xxs',
-    iconSize: 'xxs',
+    iconSize: 'xs',
   },
 };
