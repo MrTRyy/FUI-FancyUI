@@ -87,19 +87,19 @@ export const typography = {
   },
   bodytextLg: {
     fontSize: '24px',
-    lineHeight: '34px',
+    lineHeight: '32px',
     letterSpacing: 'normal',
     fontWeight: '400', // Regular
   },
   bodytextMd: {
     fontSize: '18px',
-    lineHeight: '26px',
+    lineHeight: '24px',
     letterSpacing: 'normal',
     fontWeight: '400', // Regular
   },
   bodytextSm: {
     fontSize: '16px',
-    lineHeight: '23px',
+    lineHeight: '18px',
     letterSpacing: 'normal',
     fontWeight: '400', // Regular
   },
