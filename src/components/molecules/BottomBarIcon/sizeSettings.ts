@@ -1,18 +1,19 @@
+import { TFancySVGAtomSizes } from '@/components/atoms/FancySVGAtom';
 import { TComponentSizes } from '@/types';
 import { TSizeSettings } from '@/types/TSizeSettings';
 
 type TSizeObj = {
-  sizeIcon: TComponentSizes;
+  sizeIcon: TFancySVGAtomSizes;
 };
 
 export const sizeSettings: TSizeSettings<TSizeObj> = {
   sm: {
-    sizeIcon: 'sm',
+    sizeIcon: 'xs',
   },
   md: {
-    sizeIcon: 'md',
+    sizeIcon: 'sm',
   },
   lg: {
-    sizeIcon: 'lg',
+    sizeIcon: 'md',
   },
 };
